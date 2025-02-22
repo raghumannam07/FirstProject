@@ -41,8 +41,19 @@
     flex: 1;
     justify-content: space-between;
     padding: 10px;
+    align-items:center;
 }
-
+.inputSearch{
+    border-radius: 25px;
+    border: rgb(240, 193, 108);
+    width: 100px;
+    height: 25px; 
+}
+.search button{
+    background-color: rgb(42, 231, 231);
+    border-radius: 20px;
+    width: fit-content;
+}
 .content{
     padding: 20px 20px;
     display: flex;
@@ -61,7 +72,7 @@
     padding-right: 200px;
     cursor: pointer;
 }
-button {
+.content button {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bolder;
